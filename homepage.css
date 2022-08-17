@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+    background-color: #FBFBFB;
+}
+
+
+.header{
+    height: 60px;
+    background-color: #CE0505;
+}
+
+
+.logo{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    letter-spacing:0px;
+    color: #EB2929;
+    background-color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 90px 90px;
+}
+
+
+.login{
+    float: right;
+}
+
+
+.login>button{
+    background-color: #CE0505;
+    color: #FFFFFF;
+    border: #FFFFFF 1px solid;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#login{
+    margin-right: 20px;
+    border: none;
+}
+
+
+#account{
+    margin-right: 130px;
+    padding: 10px 10px;
+    border-radius:3px;
+}
+
+
+.heading{
+    color: #192F60;
+    margin-left: 120px;
+    margin-top:25px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.filter-options{
+    height: 480px;
+    width: 210px;
+    margin-left: 120px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+
+.filter{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192F60;
+    font-size: 15px;
+    font-weight:600;
+    padding-top: 15px;
+    padding-left: 20px;
+    
+}
+
+
+.location{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #192F60;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+
+.select-location{
+    font-family: Arial, Helvetica, sans-serif;
+    border-color:#8C96AB;
+    color:#8C96AB;
+    border-radius: 3px;
+    margin-left:20px;
+    margin-top: 5px;
+    width: 150px;
+    height: 23px;
+    padding-left: 10px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+
+.cuisine{
+    color: #192F60;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+
+.cuisine-checkbox,.cost-range{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8C96AB;
+    font-size: 12px;
+    padding-left: 18px;
+    margin-top: 3px;    
+}
+
+
+.items{
+    padding-left: 10px;
+}
+
+
+.rigth-div{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 45px;
+    vertical-align: top;
+    width: 63%;
+}
+
+
+.img{
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+}
+
+
+.hotel-img{
+    display: inline-block;
+}
+
+
+.hotel1-content,.hotel2-content{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+}
+
+
+.hotel2-content{
+    margin-top: 30px;
+}
+
+
+.hotel-details{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+
+.hotel-name{
+    color: #192F60;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+.hotel-location{
+    color: #192F60;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+
+
+.hotel-address{
+    color: #636F88;
+    padding-top:7px ;
+    padding-left: 4px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.bakery-info{
+    display: inline-block;
+    color: #636F88;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+
+.bakery-info>div{
+    padding-bottom: 12px;
+}
+
+
+.bakery-rates{
+    display: inline-block;
+    color: #192F60;
+    padding-top: 10px;
+    padding-left: 50px;
+    vertical-align: top;
+    opacity: 0.8;
+}
+
+
+.bakery-rates>div{
+    padding-bottom: 12px;
+}
+
+
+.pagination{
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 45px;
+}
+
+
+.pagination>a{
+    color: #8C96AB;
+    font-weight: 550;
+    padding: 6px 11px;
+    text-decoration: none;
+    border: solid 1px #8C96AB;
+    border-radius: 7px;
+    margin: 0px 4px;
+}
+
+
+.pagination>#previous-page{
+    opacity: 0.5;
+}
+
+
+.pagination>#page1{
+    background-color: #8C96AB;
+    color: #FFFFFF;
+}
